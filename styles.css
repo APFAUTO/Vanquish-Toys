@@ -436,6 +436,53 @@ body {
     letter-spacing: 1px;
 }
 
+/* Brand Verification Section */
+.brand-verification {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+    border-top: 2px solid #87CEEB;
+    border-bottom: 2px solid #87CEEB;
+}
+
+.brand-info {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.brand-info h3 {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.brand-info p {
+    color: #333333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.brand-details {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.brand-details p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.brand-details strong {
+    color: #000000;
+    font-weight: 600;
+}
+
 /* Products Section */
 .products {
     padding: 5rem 0;
@@ -959,6 +1006,18 @@ body {
     
     .about-stats {
         grid-template-columns: 1fr;
+    }
+    
+    .brand-info h3 {
+        font-size: 1.5rem;
+    }
+    
+    .brand-info p {
+        font-size: 1rem;
+    }
+    
+    .brand-details {
+        padding: 1.5rem;
     }
     
     .product-grid {
