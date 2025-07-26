@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanquish Toys - Premium Toy Guns & Accessories</title>
+    <link rel="icon" type="image/jpeg" href="Images/Logo/VT Logo image.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Images/Logo/VT Logo image.jpg" alt="Vanquish Toys Logo" class="logo-image">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <button class="account-btn" id="accountBtn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">PREMIUM TOY GUNS & ACCESSORIES</h1>
+            <p class="hero-subtitle">Experience the thrill of tactical play with our high-quality collection</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <div class="hero-content">
+                <div class="hero-crosshair">
+                    <div class="crosshair-circle"></div>
+                    <div class="crosshair-horizontal"></div>
+                    <div class="crosshair-vertical"></div>
+                    <div class="crosshair-center"></div>
+                </div>
+                <div class="hero-text">
+                    <div class="hero-text-line">MADE FOR SAFETY</div>
+                    <div class="hero-text-line">USED FOR FUN</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Vanquish Toys</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Vanquish Toys is your premier destination for high-quality toy guns and tactical accessories. We specialize in creating authentic, safe, and durable products that bring excitement to tactical play scenarios.</p>
+                    <p>Our commitment to quality and safety ensures that every product meets the highest standards, providing endless hours of entertainment for enthusiasts of all ages.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Account Modal -->
+    <div class="modal" id="accountModal">
+        <div class="modal-content">
+            <span class="close" id="closeAccount">&times;</span>
+            <div class="auth-container">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Login</button>
+                    <button class="auth-tab" data-tab="register">Register</button>
+                </div>
+                
+                <div class="auth-form active" id="loginForm">
+                    <h3>Login to Your Account</h3>
+                    <form id="loginFormElement">
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit" class="auth-button">Login</button>
+                    </form>
+                </div>
+                
+                <div class="auth-form" id="registerForm">
+                    <h3>Create New Account</h3>
+                    <form id="registerFormElement">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <input type="password" placeholder="Confirm Password" required>
+                        <button type="submit" class="auth-button">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content cart-modal">
+            <span class="close" id="closeCart">&times;</span>
+            <h3>Shopping Cart</h3>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-total">
+                <h4>Total: £<span id="cartTotal">0.00</span></h4>
+                <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vanquish Toys</h3>
+                    <p>Premium toy guns and tactical accessories for enthusiasts.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="safety-guidelines.html">Safety Guidelines</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vanquish Toys. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
