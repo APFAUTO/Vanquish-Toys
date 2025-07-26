@@ -10,7 +10,7 @@ const products = [
         name: "VT MG3",
         description: "High-performance tactical MG3 with authentic design and superior build quality. Features realistic details and smooth operation for tactical enthusiasts.",
         price: 37.99,
-        image: "Images/Product Photos/VT MG3/Screenshot 2025-07-26 152831.png",
+        image: "Images/ProductPhotos/VTMG3/Screenshot 2025-07-26 152831.png",
         category: "machine-guns"
     },
     {
@@ -18,7 +18,7 @@ const products = [
         name: "VT SNUBBY",
         description: "Compact and powerful VT SNUBBY pistol with exceptional accuracy and reliable performance. Perfect for close-quarters tactical scenarios.",
         price: 18.99,
-        image: "Images/Product Photos/VT SNUBBY/Screenshot 2025-07-26 152739.png",
+        image: "Images/ProductPhotos/VTSNUBBY/Screenshot 2025-07-26 152739.png",
         category: "pistols"
     },
     {
@@ -26,7 +26,7 @@ const products = [
         name: "VT479",
         description: "Precision-engineered VT479 tactical rifle with advanced features and superior accuracy. Designed for professional tactical applications.",
         price: 20.99,
-        image: "Images/Product Photos/VT479/Screenshot 2025-07-26 152649.png",
+        image: "Images/ProductPhotos/VT479/Screenshot 2025-07-26 152649.png",
         category: "rifles"
     },
     {
@@ -34,7 +34,7 @@ const products = [
         name: "VT ARX",
         description: "Innovative VT ARX assault rifle with cutting-edge design and exceptional reliability. Features modular construction for maximum versatility.",
         price: 35.99,
-        image: "Images/Product Photos/VT ARX/Screenshot 2025-07-26 152537.png",
+        image: "Images/ProductPhotos/VT ARX/Screenshot 2025-07-26 152537.png",
         category: "assault-rifles"
     },
     {
@@ -42,7 +42,7 @@ const products = [
         name: "VT G17XL",
         description: "Extended range VT G17XL pistol with enhanced accuracy and extended barrel design. Perfect for precision shooting and tactical training.",
         price: 19.99,
-        image: "Images/Product Photos/VT G17XL/Screenshot 2025-07-26 154721.png",
+        image: "Images/ProductPhotos/VTG17XL/Screenshot 2025-07-26 154721.png",
         category: "pistols"
     }
 ];
